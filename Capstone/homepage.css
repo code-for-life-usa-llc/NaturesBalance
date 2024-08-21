@@ -1,0 +1,147 @@
+body {
+    margin: 0 auto;
+    background-image: url(https://www.emeraldgrouppublishing.com/sites/default/files/image/environment-sustainability-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav-bar {
+    background-color: rgb(107, 116, 205);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.globe {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 19%
+}
+
+img {
+    display: flex;
+    justify-content: end;
+    width: 55px;
+    height: 50px;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    width: 40%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a :hover {
+    color: green;
+}
+
+.Welcome {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.info-fact {
+    color: white;
+    margin: 0 auto;
+    background-color: rgba(98, 102, 103, 0.71);
+    padding: 40px;
+    width: 60%;
+    height: 40%;
+    border: rgba(62, 216, 62, 0.404);
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px;
+}
+.tal-box {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.live-count {
+    display: flex;
+    justify-content: center;
+}
+
+.info-2 {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    width: 65%;
+    height: 200px;
+    background-color: rgba(98, 102, 103, 0.655);
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 80px;
+    
+}
+
+.animal-container {
+    color: white;
+    height:160px;
+    width: 45%;
+    background-color: rgba(98, 102, 103, 0.655);
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.animal {
+   display: flex; 
+   justify-content: center;
+    
+}
+.animal > img {
+    display: flex;
+    width: 350px;
+    height: 250px;
+    box-shadow: 6px 6px rgba(95, 94, 94, 0.811);
+}
+
+.video-container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 8px 8px 8px;
+    padding-bottom: 20px;
+}
+
+.caption {
+    display: flex;
+    align-self: center;
+    background-color:  rgba(98, 102, 103, 0.74);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px;
+    width: 30%;
+    height: 60px;
+    padding-left: 20px;
+}
+
+footer{
+    color: white;
+    padding-top: 15px;
+    background-color: rgb(32, 31, 31);
+}
+
